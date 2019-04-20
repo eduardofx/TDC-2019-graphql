@@ -1,8 +1,6 @@
 # GraphQL com Rest API 
 
 
-## Run demo
-
 ```shell
 # Gerar os dados
 cp db.json.dist db.json
