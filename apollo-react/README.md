@@ -17,4 +17,4 @@ npm run graphql-server
 npm run dev
 
 
-## Créditos [here](https://medium.com/@dadc/using-graphql-client-with-rest-api-9c332e5c8eb3)
+## Créditos  (https://medium.com/@dadc/using-graphql-client-with-rest-api-9c332e5c8eb3)
