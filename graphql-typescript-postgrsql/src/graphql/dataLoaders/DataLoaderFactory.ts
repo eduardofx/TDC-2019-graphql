@@ -1,6 +1,6 @@
 import * as DataLoader from 'dataloader'
 import { DbConnection } from "../../interfaces/DbConnectionInterface";
-import { DataLoaders } from "../../interfaces/DataLoadersInterace";
+import { DataLoaders } from "../../interfaces/DataLoadersInterface";
 import { UserLoader } from './UserLoader';
 import { UserInstance } from '../../models/UserModel';
 import { PostInstance } from '../../models/PostModel';

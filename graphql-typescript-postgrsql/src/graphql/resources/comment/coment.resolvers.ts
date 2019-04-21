@@ -5,7 +5,7 @@ import {authResolvers} from '../../composable/auth.resolver'
 import { AuthUser } from "../../../interfaces/AuthUserInterface";
 import {throwError} from '../../../utils/utils'
 import { compose } from "../../composable/composable.resolver";
-import { DataLoaders } from "../../../interfaces/DataLoadersInterace";
+import { DataLoaders } from "../../../interfaces/DataLoadersInterface";
 export const commentResolvers = {
 
     Comment: {

@@ -8,12 +8,12 @@ import { DataLoaderFactory } from './graphql/dataLoaders/DataLoaderFactory';
 import { RequestedFields } from './graphql/ast/RequestedFields';
 
 class App {
-    public express: express.Application 
+    public express: express.Application
     private dataLoaderFactory: DataLoaderFactory
     private requestedFields: RequestedFields
     constructor() {
         this.express = express()
-        this.init()  
+        this.init() 
     }          
     private init():void {
         this.dataLoaderFactory = new DataLoaderFactory(db);
