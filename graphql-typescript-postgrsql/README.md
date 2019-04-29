@@ -88,3 +88,5 @@ query{
 
 consumirAPI(GRAPHQL_ENDPOINT, consultarTodosQuery).then(console.log);
 ```
+
+Co-author: @devbenatti
